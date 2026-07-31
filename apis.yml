@@ -1,7 +1,29 @@
 aid: momentus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/momentus.png
 name: Momentus
-description: Momentus is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Momentus is a U.S.-based commercial space company providing in-space
+  transportation and infrastructure services. Founded in 2017 and headquartered
+  in San Jose, California, the publicly traded company (NASDAQ: MNTS) designs,
+  manufactures, and operates Orbital Service Vehicles such as its Vigoride
+  platform, using water plasma propulsion technology to move satellites and
+  payloads between orbits, host payloads, and deliver last-mile satellite
+  deployment. Momentus serves private satellite operators, government agencies,
+  and research institutions. As of this profile it publishes no public developer
+  API, developer portal, SDK, or technical integration surface; it was surfaced
+  as a Y Combinator (S18) portfolio company and added to the API Evangelist
+  network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/momentus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Space
+- Aerospace
+- Space Transportation
+- Satellite
+- In-Space Infrastructure
+- Space Logistics
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://momentus.space
+- type: Blog
+  url: https://momentus.space/updates/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
